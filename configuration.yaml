@@ -52,19 +52,9 @@ logbook:
 # Enables a map showing the location of tracked devices
 map:
 
-# Track the sun
-sun:
-
-# Weather prediction
-sensor:
-  - platform: yr
-
 # Text to speech
 tts:
   - platform: google
-
-# Cloud
-cloud:
 
 group: !include groups.yaml
 automation: !include automations.yaml
